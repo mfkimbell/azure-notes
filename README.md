@@ -5,12 +5,16 @@
 
 (compute)
 
-## Azure VM (aws EC2)
+## Azure VM-virtual machiens (aws EC2)
 * instance types = VM series
 * elastic block stoarge = azure disk: persistent storage volumes for your VM
 * Script, aws user-data = azure custom-data: scripts that are run on the startup of your VM
 * Secuirty groups, AWS Security group = Azure NIC Network Security Group
 * Autoscaling, Azure VM Scale Sets = AWS Autoscaling: increase number of resources as needed
+
+## Availability Set (AWS auto scaling group)
+* **Update Group** area of VMs that will update during matienence, only one domain udpates at a time,** uazusually 3-5**
+* **Fault domain** grouping in data centers that share power and network,** max of 20**
 
 ## Azure VNet (aws VPC)
 * Secure your network using, Azure NSGs and ASGs = AWS NACLs and Security Groups
