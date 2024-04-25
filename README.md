@@ -12,6 +12,7 @@
 * Secuirty groups, AWS Security group = Azure NIC Network Security Group
 * Autoscaling, Azure VM Scale Sets = AWS Autoscaling: increase number of resources as needed
 
+
 ## Availability Set (AWS auto scaling group)
 * **Update Group** area of VMs that will update during matienence, only one domain udpates at a time,** uazusually 3-5**
 * **Fault domain** grouping in data centers that share power and network,** max of 20**
@@ -39,6 +40,9 @@
 ## Azure Key Vault (AWS KMS)
 * Stores keys, secrets, and certificaitons
 
+## Azure Webjobs (AWS LAMBDA/STEP + EVENT BRIDGE)
+* background jobs/tasks that run for an application
+* Azure WebJobs is a feature of Azure App Service that enables you to run a program or script in the same context as a web app, API app, or mobile app. WebJobs are often used to run background tasks as part of an application. They can be triggered by a schedule (timer-based), by an event (such as a queue message being added), or run continuously.
   
 ## Azure Files (AWS EFS)
 
@@ -59,6 +63,8 @@
 * Secondary DB, Azure active geo-replication = AWS Read Replicas
 
 ## Azure App Service (elastic beanstalk)
+
+## Azure Application Gateway (AWS Application Load Balancer)
 
 ## CosmosDB (aws dynamodb)
 
@@ -87,3 +93,7 @@ Azure Traffic Analytics is a solution that provides visibility into network traf
 ## Azure Notification Hub (aws SNS)
 
 ## Azure Storage Queue (aws SQS)
+
+
+## Azure Advisor
+* a personalized cloud consultancy service provided by Microsoft Azure. It analyzes your deployed Azure resources and offers recommendations to optimize your Azure environment. The goal of Azure Advisor is to help you improve the cost-effectiveness, performance, reliability, and security of your applications and services running on Azure
