@@ -86,9 +86,11 @@ Azure Monitor collects, analyzes, and acts on telemetry data from your Azure and
 
 ## Azure Activity Log
 Azure Activity Log is a service that provides an audit trail of all write operations (PUT, POST, DELETE) made to resources in your Azure account. It records when resources are modified or deleted, who made changes, and what operations were performed. While useful for security and audit purposes, the Azure Activity Log does not provide information about the performance of resources, only about operations performed on them.
+
 ## Azure Traffic Analytics
 Azure Traffic Analytics is a solution that provides visibility into network traffic by analyzing the NSG flow logs (Network Security Group Flow Logs). It allows you to understand which users and applications are consuming bandwidth, helps identify traffic flow patterns, and detects network anomalies. However, this tool is more focused on network-level insights and traffic flow rather than overall performance metrics related to CPU, memory, or disk, which are typically involved in general performance issues.
 
+## Azure Log Analytics (AWS Cloudwatch Logs)
 
 ## Azure Notification Hub (aws SNS)
 
