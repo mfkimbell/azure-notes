@@ -85,12 +85,28 @@ Azure Monitor collects, analyzes, and acts on telemetry data from your Azure and
 ## Azure Service Bus (aws Event Bridge service bus or SQS+SNS)
 
 ## Azure Activity Log
+* all about changes to resources
 Azure Activity Log is a service that provides an audit trail of all write operations (PUT, POST, DELETE) made to resources in your Azure account. It records when resources are modified or deleted, who made changes, and what operations were performed. While useful for security and audit purposes, the Azure Activity Log does not provide information about the performance of resources, only about operations performed on them.
 
+## Azure Search
+
+## Azure Logic Apps (AWS Step Functions)
+
+## Azure Audit Log
+* contains the history of sign-in activity and audit trail of changes made within a particular tenant
+  
 ## Azure Traffic Analytics
 Azure Traffic Analytics is a solution that provides visibility into network traffic by analyzing the NSG flow logs (Network Security Group Flow Logs). It allows you to understand which users and applications are consuming bandwidth, helps identify traffic flow patterns, and detects network anomalies. However, this tool is more focused on network-level insights and traffic flow rather than overall performance metrics related to CPU, memory, or disk, which are typically involved in general performance issues.
 
 ## Azure Log Analytics (AWS Cloudwatch Logs)
+Azure Log Analytics is a tool within the Azure Monitor suite. It collects telemetry and other data from a variety of sources and provides a query language for complex analytics, insights, and the ability to act on the collected data.
+
+Here are the core features of Azure Log Analytics:
+
+Data Collection: Gathers data from various sources like Azure resources, on-premises environments, and other cloud platforms.
+Advanced Queries: Uses Kusto Query Language (KQL) to analyze collected data for patterns, anomalies, and trends.
+Alerting: Allows you to create alerts based on metrics or query results.
+Integration: Works closely with other Azure services, including Azure Automation and Azure Security Center, for a comprehensive monitoring solution.
 
 ## Azure Notification Hub (aws SNS)
 
