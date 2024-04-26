@@ -1,5 +1,11 @@
 # azure-notes
 
+# Status Codes
+400 bad request
+401 unauthorized
+403 forbidden
+404 not found
+
 
 # Azure
 
