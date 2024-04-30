@@ -1,11 +1,22 @@
 # azure-notes
 
-# Status Codes
-400 bad request
-401 unauthorized
-403 forbidden
-404 not found
+## Status Codes
+* 400 bad request
+* 401 unauthorized
+* 403 forbidden
+* 404 not found
+* 
+### 502 Bad Gateway
+* The HTTP 502 status code indicates that one server on the internet received an invalid response from another server. It is a gateway or proxy server error, and it is usually indicative of issues between servers on the backend rather than with the client directly. Key aspects include:
+* Gateway/Proxy: It occurs when a gateway or proxy server, which is acting as an intermediary for the client, receives an invalid response from the upstream server.
+* Configuration Issues: This error can often result from network misconfigurations or servers failing to respond properly.
+* Potential Causes: Causes might include servers being down, network errors, or faulty programming in the backend that the gateway is unable to handle.
 
+### 503 Service Unavailable:
+* The HTTP 503 status code means that the server is currently unable to handle the request because it is temporarily overloaded or down for maintenance. There is no inherent problem with the request itself, but the server is simply unable to process it at this time. Here are some key points about the HTTP 503 error:
+* Temporary: This error suggests a temporary condition which will be alleviated after some delay. It is often used when servers undergo maintenance or are temporarily overloaded.
+* Retry-After Header: Servers can optionally include a Retry-After header indicating how long to wait before making a new request.
+* Load Balancers: In a scenario with load balancers, this error might indicate that all servers are too busy or down.
 
 # Azure
 
