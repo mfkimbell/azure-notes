@@ -92,6 +92,15 @@
 ## Azure Monitor (aws cloudwatch)
 Azure Monitor collects, analyzes, and acts on telemetry data from your Azure and on-premises environments. It helps to understand how applications are performing and proactively identifies issues affecting them and the resources they depend on.
 
+## Azure Resource Manager ARM (AWS CloudFormation)
+* AWS CloudFormation, Terraform, and Azure Resource Manager (ARM) are infrastructure as code (IaC) tools 
+
+## Azure App Service (AWS Elastic Beanstalk)
+* contains Azure Web Apps, API Management, Azure Functions, Azure Logic Apps
+
+## Azure App Configuration (AWS Systems Manager)
+
+
 
 <img width="1272" alt="Screenshot 2024-04-10 at 12 25 44 PM" src="https://github.com/mfkimbell/cloud-notes/assets/107063397/31f97365-4f9f-444a-b9ff-4d62d24696ef">
 
