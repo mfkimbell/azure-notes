@@ -6,9 +6,16 @@
 * 403 forbidden
 * 404 not found
 
-### 409 
+### 409 Conflict Error
 * The 409 Conflict error is an HTTPS status code that indicates a conflict between a client's request and the current state of a resource. This error usually occurs in response to a PUT request. For example, a 409 error may occur when uploading a file that is older than an existing file on the server.
 
+### 500 Internal Server Error
+The HTTP status code 500, also known as the Internal Server Error, is a generic error response that indicates the server encountered an unexpected condition that prevented it from fulfilling the request. This error is usually returned by the server when no other error code is suitable. 
+
+SiteGround
+What is “HTTP 500 Internal Server Error” and How to Fix It? - SiteGround KB
+
+Apigee Docs
 
   
 ### 502 Bad Gateway
