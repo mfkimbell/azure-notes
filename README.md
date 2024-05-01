@@ -5,7 +5,12 @@
 * 401 unauthorized
 * 403 forbidden
 * 404 not found
-* 
+
+### 409 
+* The 409 Conflict error is an HTTPS status code that indicates a conflict between a client's request and the current state of a resource. This error usually occurs in response to a PUT request. For example, a 409 error may occur when uploading a file that is older than an existing file on the server.
+
+
+  
 ### 502 Bad Gateway
 * The HTTP 502 status code indicates that one server on the internet received an invalid response from another server. It is a gateway or proxy server error, and it is usually indicative of issues between servers on the backend rather than with the client directly. Key aspects include:
 * Gateway/Proxy: It occurs when a gateway or proxy server, which is acting as an intermediary for the client, receives an invalid response from the upstream server.
