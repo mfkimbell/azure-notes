@@ -5,6 +5,8 @@
 * 400 bad request
 * 401 unauthorized
 * 403 forbidden
+<img width="795" alt="Screenshot 2024-05-02 at 6 36 36 PM" src="https://github.com/mfkimbell/azure-notes/assets/107063397/bb0863c3-95c9-4d51-840d-e6adb1f87158">
+
 * 404 not found
 
 ### 409 Conflict Error
