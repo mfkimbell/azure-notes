@@ -1,6 +1,7 @@
 # azure-notes
 
 ## Status Codes
+* 200 success
 * 400 bad request
 * 401 unauthorized
 * 403 forbidden
