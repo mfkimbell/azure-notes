@@ -1,6 +1,6 @@
 # azure-notes
 
-## Status Codes
+## Status Codes to know for AZ-204 exam
 * 200 success
 * 400 bad request
 * 401 unauthorized
