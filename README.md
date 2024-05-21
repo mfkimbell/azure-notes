@@ -132,7 +132,7 @@ Service Bus is fire but don't forget. System A publishes to Service Bus where th
 
 Even Hub is fire, fire, fire. Systems A, B, C and all their friends stream events to Event Hub. System X consumes batches of events. System Y consumes telemetry data about the events. Think of IoT devices. A building with 10,000 sensors sending events on changes in state (temperature, etc) gets fed into a central store. One system might take in batches of events (temperature data) to generate a heatmap of the building. Another system might analyse the telemetry stream to detect anomalies.
 
-## Azure Activity Log
+## Azure Activity Log (AWS Cloudtrail)
 * all about changes to resources
 Azure Activity Log is a service that provides an audit trail of all write operations (PUT, POST, DELETE) made to resources in your Azure account. It records when resources are modified or deleted, who made changes, and what operations were performed. While useful for security and audit purposes, the Azure Activity Log does not provide information about the performance of resources, only about operations performed on them.
 
