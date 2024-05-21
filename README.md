@@ -125,6 +125,13 @@ Azure Monitor collects, analyzes, and acts on telemetry data from your Azure and
 
 ## Azure Service Bus (aws Event Bridge service bus or SQS+SNS)
 
+
+Event Grid is fire and forget. System A publishes to Event Grid where the event is consumed by System B. System A doesn't care or know that System B consumed or did anything with that event. Think of push notifications. A system like Reddit publishes an event when someone comments. Your app subscribes to that event stream and shows you a notification when it receives something. The sending system doesn't care or need to know about that.
+
+Service Bus is fire but don't forget. System A publishes to Service Bus where the message is consumed by System B. System A may have some expectation or requirement to know that message has been consumed. Messages are queued until they can be received, and can be ordered (first in, first out). Think of a distributed finance system. Someone makes a payment from one account to another. That message is sent to a queue where it is picked up by another system for processing. The sending system needs to know that message was received otherwise it may try to resend and then incorrectly re-debit the senders account. Ordering of messages is also important here.
+
+Even Hub is fire, fire, fire. Systems A, B, C and all their friends stream events to Event Hub. System X consumes batches of events. System Y consumes telemetry data about the events. Think of IoT devices. A building with 10,000 sensors sending events on changes in state (temperature, etc) gets fed into a central store. One system might take in batches of events (temperature data) to generate a heatmap of the building. Another system might analyse the telemetry stream to detect anomalies.
+
 ## Azure Activity Log
 * all about changes to resources
 Azure Activity Log is a service that provides an audit trail of all write operations (PUT, POST, DELETE) made to resources in your Azure account. It records when resources are modified or deleted, who made changes, and what operations were performed. While useful for security and audit purposes, the Azure Activity Log does not provide information about the performance of resources, only about operations performed on them.
