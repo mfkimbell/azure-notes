@@ -140,10 +140,10 @@ Azure Activity Log is a service that provides an audit trail of all write operat
 
 ## Azure Logic Apps (AWS Step Functions)
 
-## Azure Audit Log
+## Azure Audit Log (AWS Cloudtrail)
 * contains the history of sign-in activity and audit trail of changes made within a particular tenant
   
-## Azure Traffic Analytics
+## Azure Traffic Analytics (AWS Elastic loadbalancer, not super clear why)
 Azure Traffic Analytics is a solution that provides visibility into network traffic by analyzing the NSG flow logs (Network Security Group Flow Logs). It allows you to understand which users and applications are consuming bandwidth, helps identify traffic flow patterns, and detects network anomalies. However, this tool is more focused on network-level insights and traffic flow rather than overall performance metrics related to CPU, memory, or disk, which are typically involved in general performance issues.
 
 ## Azure Log Analytics (AWS Cloudwatch Logs)
