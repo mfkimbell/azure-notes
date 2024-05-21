@@ -94,7 +94,7 @@ Apigee Docs
 * High availability, Azure zone redundant configuration (aws Multi-Zone Deployment)
 * Secondary DB, Azure active geo-replication = AWS Read Replicas
 
-## Azure App Service (elastic beanstalk)
+## Azure App Service (AWS ElasticBeanstalk or AWS Amplify )
 
 ## Azure Application Gateway (AWS Application Load Balancer)
 
