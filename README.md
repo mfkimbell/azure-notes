@@ -1,4 +1,5 @@
 # azure-notes
+<img width="776" alt="Screenshot 2024-05-22 at 5 27 35 PM" src="https://github.com/mfkimbell/azure-notes/assets/107063397/76ad5161-282d-40da-a5d2-33fee265afc5">
 
 durable functions, snapshots, storage methods, service bus, event hub, event grid, RBAC, managed identities (user or system assigned)
 
