@@ -1,6 +1,54 @@
 # azure-notes
 ![scope-levels](https://github.com/mfkimbell/azure-notes/assets/107063397/6b5c8c07-632d-4c25-b7c8-3c75a8452dad)
 
+Managed Identity
+Managed Identity is an Azure feature that allows services to authenticate to other Azure services without storing credentials in the code. Azure manages the identity lifecycle, including credential rotation.
+
+Types of Managed Identities:
+
+System-Assigned Managed Identity: Tied to a specific Azure resource (e.g., a virtual machine, Azure Function, or Azure App Service). When the resource is deleted, the identity is also deleted.
+User-Assigned Managed Identity: Independent of any specific resource and can be shared across multiple resources. The identity's lifecycle is managed separately.
+Key Features:
+
+Credential Management: Azure handles the management, rotation, and protection of credentials.
+Integration with Azure AD: Managed identities are first-class entities in Azure AD and can be assigned roles and permissions.
+Seamless Authentication: Services can authenticate to Azure resources using managed identities without needing to manage credentials.
+Pros:
+
+Security: Eliminates the need to store credentials in code or configuration files.
+Simplicity: Simplifies authentication by automating identity and credential management.
+Scalability: Easily scalable as the number of resources and services grows.
+Cons:
+
+Scope: Limited to Azure resources that support managed identities.
+Flexibility: Less control over the identity compared to manually managed credentials.
+Role-Based Access Control (RBAC)
+RBAC is an authorization system that provides fine-grained access management to Azure resources. It allows you to assign roles to users, groups, and managed identities.
+
+Key Features:
+
+Role Assignments: Permissions are grouped into roles (e.g., Reader, Contributor, Owner) and assigned to users, groups, or managed identities.
+Scope Levels: Roles can be assigned at different levels, such as subscription, resource group, or individual resource.
+Custom Roles: Ability to create custom roles to tailor permissions to specific needs.
+Pros:
+
+Granular Control: Fine-grained access management enables precise control over who can do what with Azure resources.
+Scalability: Easily scalable across large environments with many users and resources.
+Auditability: Provides detailed logs and reports for auditing and compliance purposes.
+Cons:
+
+Complexity: Can become complex to manage in very large environments with many roles and role assignments.
+Initial Setup: Requires thoughtful planning and setup to align roles with organizational needs and security policies.
+Managed Identity vs. RBAC: How They Work Together
+Managed Identity for Authentication: Managed identities are used for secure authentication to Azure services without storing credentials.
+RBAC for Authorization: RBAC is used to authorize access to resources. Managed identities are assigned roles through RBAC to grant them the necessary permissions.
+Example Scenario
+Scenario: An Azure Function needs to access an Azure Key Vault to retrieve secrets.
+Managed Identity: Enable a system-assigned managed identity for the Azure Function.
+RBAC: Assign the managed identity the "Key Vault Reader" role in the Azure Key Vault. This role assignment allows the Azure Function to access the secrets it needs.
+Conclusion
+Managed identities simplify the authentication process by eliminating the need for credential management, while RBAC provides the necessary authorization framework to control access to Azure resources. Together, they provide a robust security model for managing access to Azure services.
+
 ## Status Codes to know for AZ-204 exam
 * 200 success
 * 400 bad request
