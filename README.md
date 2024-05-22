@@ -1,4 +1,5 @@
 # azure-notes
+![scope-levels](https://github.com/mfkimbell/azure-notes/assets/107063397/6b5c8c07-632d-4c25-b7c8-3c75a8452dad)
 
 ## Status Codes to know for AZ-204 exam
 * 200 success
