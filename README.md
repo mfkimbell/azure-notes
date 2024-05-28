@@ -1,7 +1,7 @@
 # azure-notes
 <img width="776" alt="Screenshot 2024-05-22 at 5 27 35 PM" src="https://github.com/mfkimbell/azure-notes/assets/107063397/76ad5161-282d-40da-a5d2-33fee265afc5">
 
-durable functions, snapshots, storage methods, service bus, event hub, event grid, RBAC, managed identities (user or system assigned)
+durable functions, snapshots/versioning, storage methods, service bus, event hub, event grid, RBAC, managed identities (user or system assigned)
 
 ![scope-levels](https://github.com/mfkimbell/azure-notes/assets/107063397/6b5c8c07-632d-4c25-b7c8-3c75a8452dad)
 
